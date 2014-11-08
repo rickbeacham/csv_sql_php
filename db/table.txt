@@ -1,0 +1,9 @@
+CREATE TABLE `storedetails` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `storename` varchar(200) DEFAULT NULL,
+  `storeaddress` varchar(200) DEFAULT NULL,
+  `pickdate` datetime DEFAULT NULL,
+  `addeddate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `organization` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8

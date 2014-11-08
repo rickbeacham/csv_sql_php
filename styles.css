@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+/*------------- RESETCSS ----------------------------*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+/* ------------ Layout styles - Common ----------------------*/
+body{  color:#000; font-family: 'GothamBook'; font-size:13px;}
+#wrapper{ width:1030px; margin:0 auto 50px; background:#fff; padding:20px 0px  300px;-webkit-box-shadow: 0px 0px 5px 0px #cccccc;
+box-shadow: 0px 0px 5px 0px #cccccc;}
+#header{ width:960px; margin:10px 80px 0px}
+#header .logo{ float:left; width:160px;}
+.content-block{width:960px; margin:0 auto; min-height:auto;}
+
+/*------------------------------------Contact--------------------------*/
+.contact{margin:50px 245px 0px}
+.contact-tagline{ margin:0px 0 20px}
+.contact-tagline h3,.contactinfo h3{ font-size:24px;}
+.contact-tagline p{ padding:10px 0; line-height:16px;}
+.contact-tagline p a{ color:#ee912d}
+#contact-form{ width:630px; float:left}
+#contact-form label{ float:left; display:block; background:#DDEBD1; width:240px; margin-right:10px; height:30px; line-height:30px; text-indent:10px}
+#contact-form input[type="text"]{ height:25px; text-indent:5px;}
+#contact-form p{ margin-bottom:10px;}
+#contact-form fieldset{ padding-bottom:30px;}
+#contact-form input[type="reset"],#contact-form input[type="submit"]{ width:140px; height:30px;-webkit-border-radius: 5px; background:#DDEBD1;
+border-radius: 5px; border:none; padding-bottom:4px; color:#fff; text-transform:uppercase; font-family: 'GothamBook'; font-weight:bold;cursor:pointer; font-size:12px;}
+/*#contact-form input[type="reset"]{ background:url(images/reset-bg.png) repeat-x; }
+#contact-form input[type="submit"]{background:url(images/submit-bg.png) repeat-x; float:right}*/
+#contact-form input[type="submit"]{float:left;margin:0px 50px 0px; background:#DDEBD1}
+#contact-form input[type="reset"]:hover,#contact-form input[type="submit"]:hover{ background:#333}
+.contactinfo{ float:left; margin-left:200px;}
+.contactinfo p{ padding:10px 0; line-height:16px;}
+.contact-tagline h3.error{ color:#ff0000}
+#contact-form .error label{ background:#ff0000; color:#fff}
+.message{color: red; font-weight:bold; }
+
+
+.good360 {font-size:18px;color:#9Ec54D;margin-left: 30px;}
+
+.center
+{
+margin:auto;
+width:35%;
+}
+
+.tblcontact{margin:50px  0px}
+.tbllabel{ float:left; display:block; background:#DDEBD1; width:150px; margin-right:10px; height:30px; line-height:30px; text-indent:10px; text-align: center;}
